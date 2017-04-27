@@ -68,4 +68,6 @@ function shuffle (cards) {
   }
 }
 
+document.getElementById("button").reset();
+
 
