@@ -55,19 +55,6 @@ var createBoard = function (){
 
 createBoard();
 
-function shuffle (cards) {
-  var i = 0
-    , j = 0
-    , temp = null
 
-  for (i = cards.length - 1; i > 0; i -= 1) {
-    j = Math.floor(Math.random() * (i + 1))
-    temp = cards[i]
-    cards[i] = array[j]
-    array[j] = temp
-  }
-}
-
-document.getElementById("button").reset();
 
 
